@@ -6,21 +6,8 @@ using System.Threading.Tasks;
 
 namespace hierarchie1
 {
-    class CarTemplate : ICar
+    class CarTemplate
     {
-        public string LicencePlate()
-        {
-            throw new NotImplementedException();
-        }
 
-        public float MaxLegalSpeed()
-        {
-            throw new NotImplementedException();
-        }
-
-        public int MaxPassengerCount()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

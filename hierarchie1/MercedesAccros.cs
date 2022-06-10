@@ -22,5 +22,11 @@ namespace hierarchie1
         {
             throw new NotImplementedException();
         }
+
+        TruckTemplate[] listTruckTemplate;
+        MercedesAccros(TruckTemplate[] valeur)
+        {
+            listTruckTemplate = valeur;
+        }
     }
 }

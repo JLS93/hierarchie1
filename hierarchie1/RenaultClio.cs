@@ -22,5 +22,11 @@ namespace hierarchie1
         {
             throw new NotImplementedException();
         }
+
+        CarTemplate[] listCarTemplate;
+        RenaultClio(CarTemplate[] valeur)
+        {
+            listCarTemplate = valeur;
+        }
     }
 }
