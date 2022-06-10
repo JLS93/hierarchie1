@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace hierarchie1
 {
-    class ICar
+    public interface ICar : IRoadVehicle, IVehicle
     {
+        MaxPassengerCount();
     }
 }

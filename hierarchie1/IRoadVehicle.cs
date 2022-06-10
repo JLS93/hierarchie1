@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace hierarchie1
 {
-    class IRoadVehicle
+    public interface IRoadVehicle : IVehicle
     {
+        MaxLegalSpeed();
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace hierarchie1
 {
-    class MercedesAccros
+    class MercedesAccros : ITruck, IRoadVehicle, IVehicle
     {
     }
 }

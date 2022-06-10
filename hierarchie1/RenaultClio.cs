@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace hierarchie1
 {
-    class RenaultClio
+    class RenaultClio : ICar, IRoadVehicle, IVehicle
     {
     }
 }
