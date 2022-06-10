@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace hierarchie1
 {
-    public class ITruck : IRoadVehicle, IVehicle
+    public interface ITruck : IRoadVehicle
     {
-        MaxFreight();
+        float MaxFreight();
+
     }
 }
