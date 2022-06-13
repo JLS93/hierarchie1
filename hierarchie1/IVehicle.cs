@@ -8,6 +8,6 @@ namespace hierarchie1
 {
     public interface IVehicle
     {
-        string LicencePlate();
+        public string LicencePlate();
     }
 }

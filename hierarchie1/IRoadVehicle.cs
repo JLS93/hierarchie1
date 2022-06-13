@@ -8,7 +8,7 @@ namespace hierarchie1
 {
     public interface IRoadVehicle : IVehicle
     {
-        float MaxLegalSpeed();
+        public float MaxLegalSpeed();
 
     }
 }
